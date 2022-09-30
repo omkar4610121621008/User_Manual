@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+        <title>User Manual</title>
+    </head>
+    <body>
+      <header>
+        <nav>
+          <ul class="hover">
+              <li><a href="https://github.com/omkar4610121621008/DFESW9-To-Do-List" target="_blank">GitHub</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+      </header>
+        <h1 id="str"></h1>
+        <script>
+          let string = "Omkar Watkinson: User Manual";
+          let str = string.split("");
+          let element = document.getElementById('str');
+          (function animate() {
+            if (str.length > 0){
+              element.innerHTML += str.shift()
+            } else {
+              clearTimeout(running);
+            }
+            let running = setTimeout(animate, 90);
+          })();
+        </script>
+        <main>
+          <img src="https://i.ytimg.com/vi/PY8f1Z3nARo/maxresdefault.jpg" id="codeimg" alt="">
+          <section class="container">
+            <section class="para">
+              <h2 id="about">My Style</h2>
+              <p>I like to organise my day, I usually have timers on my phone for specific things I have to do so that I can use my brain to focus on other things throughout the day. I have quite a growth mindset, I love to learn new things that are interesting to me (if it is not interesting then my attention just goes just like that)
+                </p>
+              </section>
+            <section class="para">
+              <h2>What I Value</h2>
+              <p>Creativity, a can-do attitude and clear communication</p>
+            </section>
+            <section class="para">
+              <h2>What I Don't Have Patience For</h2>
+              <p>I would say ignorant people. Also people who take advantage of others, particularly those they deem weaker.</p>
+            </section >
+            <section class="para">
+              <h2>How Best Communicate With Me</h2>
+              <p>Honestly I do well with any type of communication, but what would work best for me would definetly be video or phone calls, as there can be a lot more details expalined in that type.
+            </p>
+            </section>
+            <section class="para">
+              <h2>How To Help Me</h2>
+              <p>If you are explaining something that I do not know, I would like you to do it in a clear way, even in laymans terms, because if I dont get it, the information will probably go through my head and I simply wont remember what you meant.
+            </p>
+            </section>
+            <section class="para">
+              <h2>What People Misunderstand About Me</h2>
+              <p>I havent got any misunderstandings from any of my friends, family or people yet.
+            </p>
+            </section>
+
+            <section class="personality">
+              <h2 class="para">My Personality Type</h2>
+              <p class="para link">Architect Personality, INTJ-A / INTJ-T<br>For more information, <a href="https://www.16personalities.com/intj-personality?utm_source=welcome-turbulent-architect&utm_medium=email&utm_campaign=results&utm_content=type-personality-0">click here</a></p>
+              <img src="https://static.neris-assets.com/images/personality-types/headers/analysts_Architect_INTJ_personality_header.svg" id="arc" alt="">
+            </section>
+          </section>
+          </main>
+          <footer>
+            <p id="contact"> My Email: omki.watkinson21@gmail.com<br> Hope you Enjoyed :D</p>
+          </footer>
+    </body>
+</html>
