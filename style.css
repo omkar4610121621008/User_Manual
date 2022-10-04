@@ -114,4 +114,39 @@ header a:hover {
     object-fit: cover;
   }
 
+  .interests p {
+    width: 300px;
+    height: 220px;
+    margin: 8px;
+    border-radius: 22px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  #skydiving {
+    background-image: url("https://gifimage.net/wp-content/uploads/2018/11/funny-skydiving-gif-5.gif");
+    background-size: cover;
+  }
+
+  #basketball {
+    background-image: url("https://media4.giphy.com/media/3oEjHIPW937PZ7zzLq/200w.gif?cid=82a1493bad4rtpd4svfi30vaurnawommcwm05jayi6m0jnm4&rid=200w.gif&ct=g");
+    background-size: cover;
+  }
+
+  #karting {
+    background-image: url("https://media.tenor.com/dFRUbkXIuo8AAAAM/karting-crash.gif");
+    background-size: cover;
+  }
+
+  #piano {
+    background-image: url("https://yiche-static.oss-accelerate.aliyuncs.com/images/2021-06-10/8a6f6a9e9accdf8dbffad59e0757eeac.gif");
+    background-size: cover;
+  }
+
+
+
 
